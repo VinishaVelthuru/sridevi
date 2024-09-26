@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Registration page></title>
+<h1>REGISTRATION FORM</h1>
+</head>
+<body>
+<form method="POST" form action="reg.php">
+name:<input type="text" name="name" size=15/><br>
+gender:
+<input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female">female
+<input type="radio" name="gender" value="others">others<br>
+email:<input type="text" name="email" size=15><br>
+password:<input type="text" name="password" size=15><br>
+languages known:
+<br><input type="checkbox" name="languages known">c<br>
+<input type="checkbox" name="languages known">python<br>
+<input type="checkbox" name="languages known">java<br>
+subject:<select name="subject" rows="20" cols="20">
+<option>AI</option>
+<option>DBMS</option>
+<option>JAVA</option>
+<option>HTML</option>
+<option>DEVOPS</option></select><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
